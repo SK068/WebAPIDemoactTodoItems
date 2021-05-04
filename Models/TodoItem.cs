@@ -7,8 +7,8 @@ namespace WebAPIDemoact.Models
 {
     public class TodoItem
     {
-        public long Id { get; set; }
-        public string Name { get; set; }
+        public long Id { get; set; }//this is id
+        public string Name { get; set; }//this is name
         public bool IsComplete { get; set; }
     }
 }
